@@ -1,0 +1,53 @@
+!SESSION 2017-07-18 14:38:29.138 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-07-18 14:40:42.872
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'D:\Users\NiCco'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 2 0 2017-07-18 14:44:17.838
+!MESSAGE Error parsing metadata repository
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2017-07-18 14:44:17.838
+!MESSAGE Error in file:/D:/Users/NiCco/.eclipse/org.eclipse.platform_4.7.0_1709980481_win32_win32_x86_64/p2/org.eclipse.equinox.p2.repository/cache/content324056807.jar at line 959, column 62: Missing required attribute in "property": value
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2017-07-18 14:44:17.838
+!MESSAGE Error in file:/D:/Users/NiCco/.eclipse/org.eclipse.platform_4.7.0_1709980481_win32_win32_x86_64/p2/org.eclipse.equinox.p2.repository/cache/content324056807.jar at line 1011, column 62: Missing required attribute in "property": value
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2017-07-18 14:44:17.838
+!MESSAGE Error in file:/D:/Users/NiCco/.eclipse/org.eclipse.platform_4.7.0_1709980481_win32_win32_x86_64/p2/org.eclipse.equinox.p2.repository/cache/content324056807.jar at line 1771, column 62: Missing required attribute in "property": value
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2017-07-18 14:44:17.838
+!MESSAGE Error in file:/D:/Users/NiCco/.eclipse/org.eclipse.platform_4.7.0_1709980481_win32_win32_x86_64/p2/org.eclipse.equinox.p2.repository/cache/content324056807.jar at line 1933, column 62: Missing required attribute in "property": value
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2017-07-18 14:44:17.838
+!MESSAGE Error in file:/D:/Users/NiCco/.eclipse/org.eclipse.platform_4.7.0_1709980481_win32_win32_x86_64/p2/org.eclipse.equinox.p2.repository/cache/content324056807.jar at line 2457, column 62: Missing required attribute in "property": value
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2017-07-18 14:44:17.838
+!MESSAGE Error in file:/D:/Users/NiCco/.eclipse/org.eclipse.platform_4.7.0_1709980481_win32_win32_x86_64/p2/org.eclipse.equinox.p2.repository/cache/content324056807.jar at line 3088, column 62: Missing required attribute in "property": value
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2017-07-18 14:44:17.838
+!MESSAGE Error in file:/D:/Users/NiCco/.eclipse/org.eclipse.platform_4.7.0_1709980481_win32_win32_x86_64/p2/org.eclipse.equinox.p2.repository/cache/content324056807.jar at line 3136, column 62: Missing required attribute in "property": value
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2017-07-18 14:44:17.838
+!MESSAGE Error in file:/D:/Users/NiCco/.eclipse/org.eclipse.platform_4.7.0_1709980481_win32_win32_x86_64/p2/org.eclipse.equinox.p2.repository/cache/content324056807.jar at line 4554, column 62: Missing required attribute in "property": value
+
+!ENTRY org.eclipse.equinox.p2.metadata 1 0 2017-07-18 14:47:17.319
+!MESSAGE No translation source unavailable. Default language will be used.
+!SESSION 2017-07-18 14:51:22.914 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.php.product -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product -data file:/D:/Dev/Learning/Sf2/trunk/tryout/Symfony/ -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-07-18 14:51:39.841
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'D:\Users\NiCco'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 4 2017-07-18 14:56:17.956
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@20960b51)} vs {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@6345dc06)}

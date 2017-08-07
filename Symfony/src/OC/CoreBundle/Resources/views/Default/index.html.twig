@@ -1,0 +1,23 @@
+{# src/OC/CoreBundle/Resources/views/Default/index.html.twig #}
+
+{% extends main_layout %}
+
+{% block title %}
+  Accueil - {{ parent() }}
+{% endblock %}
+
+{% block body %}
+
+    {% if app.session.flashBag.has('warning') %}
+        <div class="alert alert-warning">
+            {% for msg in app.session.flashBag.get('warning') %}
+                {{ msg }}
+            {% endfor %}
+        </div>
+    {% endif %}
+  <h1>Page d'accueil de notre site</h1>
+  
+    <h2>Dernières annonces</h2>
+    {{ render(controller("OCPlatformBundle:Advert:menu", {'limit': 3})) }}
+
+{% endblock %}
